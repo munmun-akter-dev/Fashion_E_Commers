@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet" />
+
+
+
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Syne:wght@400..800&display=swap"
+    rel="stylesheet" />
+
+  <link href="https://fonts.cdnfonts.com/css/nt-epika" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/fashion" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/moonclaw-starplume-free-trial" rel="stylesheet">
+
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+
+
+
+  <!-- other library -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <title>Our Journal Page</title>
+</head>
+
+<body>
+  <!-- HEADER SECTION START -->
+
+  <header class="d-none d-lg-block">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav align-items-center w-100 flex-wrap ">
+
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Stockists</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item me-lg-auto">
+              <a class="nav-link" href="#">Theme</a>
+            </li>
+
+
+            <li class="nav-item ">
+              <ul class="d-flex social-items  ">
+                <li> <a class="nav-link p-2" aria-current="page" href="#"><img src="./assets/images/nav_fb_img.png"
+                      alt=""></a></li>
+                <li> <a class="nav-link p-2" href="#"><img src="./assets/images/nav_insta.png" alt=""></a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#"><img src="./assets/images/nav_pinterest.png" alt=""></a>
+                </li>
+                <li> <a class="nav-link p-2" href="#"><img src="./assets/images/nav_tiktok.png" alt=""></a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li class="nav-item ms-lg-4">
+              <ul class="d-flex align-items-center">
+                <li>
+                  <a class="nav-link" href="#"><img src="./assets/images/nav_usa_flag.png" alt=""></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">USA(Cad $)</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="6"
+                      viewBox="0 0 12 6" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M0.414376 0.531506C0.673133 0.20806 1.1451 0.155619 1.46855 0.414376L6.00003 4.03956L10.5315 0.414376C10.855 0.155619 11.3269 0.20806 11.5857 0.531506C11.8444 0.854953 11.792 1.32692 11.4685 1.58568L6.46855 5.58568C6.19464 5.80481 5.80542 5.80481 5.53151 5.58568L0.531506 1.58568C0.20806 1.32692 0.155619 0.854953 0.414376 0.531506Z"
+                        fill="white" />
+                    </svg></a>
+                </li>
+              </ul>
+
+            </li>
+
+          </ul>
+
+
+        </div>
+      </div>
+    </nav>
+    <div class="nav_border"></div>
+
+
+
+    <!-- bottom header -->
+    <div class="d-none d-lg-block ">
+      <nav class="navbar bottom navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">
+            <h2 class="nav_head">
+              Luxe Lane
+            </h2>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav align-items-center ms-auto  me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./new_arrivals.html">New Arrivals Clothing </a>
+              </li>
+
+
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Product Catagory
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="./new_arrivals.html">New Arrivals</a></li>
+                    <li><a class="dropdown-item" href="./tops.html">Tops</a></li>
+                    <li><a class="dropdown-item" href="./pants.html">Pants</a></li>
+                    <li><a class="dropdown-item" href="./footware.html">Footware</a></li>
+                  </ul>
+                </div>
+
+
+                <!-- <select id="" name="cars">
+
+                  <option value="saab">Product Catagory</option>
+
+                  <option value="mercedes">New Arrivals</option>
+
+                  <option value="audi">Tops</option>
+                  <option value="audi"> Pants</option>
+                  <option value="audi">Footware</option>
+                </select> -->
+                <!-- <a class="nav-link" href="#">Product Catagory<svg xmlns="http://www.w3.org/2000/svg" width="12"
+                    height="6" viewBox="0 0 12 6" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M0.414376 0.531506C0.673133 0.20806 1.1451 0.155619 1.46855 0.414376L6.00003 4.03956L10.5315 0.414376C10.855 0.155619 11.3269 0.20806 11.5857 0.531506C11.8444 0.854953 11.792 1.32692 11.4685 1.58568L6.46855 5.58568C6.19464 5.80481 5.80542 5.80481 5.53151 5.58568L0.531506 1.58568C0.20806 1.32692 0.155619 0.854953 0.414376 0.531506Z"
+                      fill="white" />
+                  </svg>
+                </a> -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./our_journal.html">Our Journal</a>
+              </li>
+
+            </ul>
+
+            <ul class=" search_under_line navbar-nav align-items-center  mb-2 mb-lg-0">
+              <li class="  nav-item">
+                <a class=" nav-link " aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                    height="20" viewBox="0 0 20 20" fill="none">
+                    <g clip-path="url(#clip0_0_61)">
+                      <path
+                        d="M15.417 15.4165L18.3337 18.3332M17.5003 9.58317C17.5003 5.21092 13.9559 1.6665 9.58366 1.6665C5.2114 1.6665 1.66699 5.21092 1.66699 9.58317C1.66699 13.9554 5.2114 17.4998 9.58366 17.4998C13.9559 17.4998 17.5003 13.9554 17.5003 9.58317Z"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_0_61">
+                        <rect width="20" height="20" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg></a>
+              </li>
+
+              <li class="  nav-item">
+                <a class=" nav-link " aria-current="page" href="#">Search</a>
+              </li>
+
+            </ul>
+            <ul class="navbar-nav align-items-center ms-5 gap-0 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28"
+                    height="28" viewBox="0 0 28 28" fill="none">
+                    <path
+                      d="M5.83398 23.3332V22.1665C5.83398 20.0006 6.6944 17.9233 8.22595 16.3918C9.75749 14.8603 11.8347 13.9998 14.0007 13.9998M14.0007 13.9998C16.1666 13.9998 18.2438 14.8603 19.7754 16.3918C21.3069 17.9233 22.1673 20.0006 22.1673 22.1665V23.3332M14.0007 13.9998C15.2383 13.9998 16.4253 13.5082 17.3005 12.633C18.1757 11.7578 18.6673 10.5708 18.6673 9.33317C18.6673 8.09549 18.1757 6.90851 17.3005 6.03334C16.4253 5.15817 15.2383 4.6665 14.0007 4.6665C12.763 4.6665 11.576 5.15817 10.7008 6.03334C9.82565 6.90851 9.33398 8.09549 9.33398 9.33317C9.33398 10.5708 9.82565 11.7578 10.7008 12.633C11.576 13.5082 12.763 13.9998 14.0007 13.9998Z"
+                      stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg></a>
+              </li>
+              <!-- 
+              <li class="nav-item">
+                <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="6"
+                    viewBox="0 0 12 6" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M0.414376 0.531506C0.673133 0.20806 1.1451 0.155619 1.46855 0.414376L6.00003 4.03956L10.5315 0.414376C10.855 0.155619 11.3269 0.20806 11.5857 0.531506C11.8444 0.854953 11.792 1.32692 11.4685 1.58568L6.46855 5.58568C6.19464 5.80481 5.80542 5.80481 5.53151 5.58568L0.531506 1.58568C0.20806 1.32692 0.155619 0.854953 0.414376 0.531506Z"
+                      fill="white" />
+                  </svg></a>
+              </li> -->
+
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="modal" role="button" href="#exampleModalToggle"><img
+                    src="./assets/images/bottom_nav_right_img.png" alt=""></a>
+              </li>
+
+
+              <!-- Button trigger modal -->
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      <div class="nav_border"></div>
+    </div>
+    <!-- bottom header -->
+
+
+  </header>
+
+
+  <header class=" d-lg-none d-sm-block ">
+    <!-- small device header -->
+    <div class=" ">
+      <nav class="navbar small_bottom navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <h2 class="nav_head">
+              Luxe Lane
+            </h2>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+            <ul class="navbar-nav align-items-center ms-auto  me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">About </a>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Stockists</a>
+              </li>
+
+
+
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">FAQ </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Theme </a>
+              </li>
+
+
+
+
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">New Arrivals Clothing </a>
+              </li>
+
+
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Product Catagory
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="./new_arrivals.html">New Arrivals</a></li>
+                    <li><a class="dropdown-item" href="./tops.html">Tops</a></li>
+                    <li><a class="dropdown-item" href="./pants.html">Pants</a></li>
+                    <li><a class="dropdown-item" href="./footware.html">Footware</a></li>
+                  </ul>
+                </div>
+                <!-- <a class="nav-link" href="#">Product Catagory <svg xmlns="http://www.w3.org/2000/svg" width="12"
+                    height="6" viewBox="0 0 12 6" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M0.414376 0.531506C0.673133 0.20806 1.1451 0.155619 1.46855 0.414376L6.00003 4.03956L10.5315 0.414376C10.855 0.155619 11.3269 0.20806 11.5857 0.531506C11.8444 0.854953 11.792 1.32692 11.4685 1.58568L6.46855 5.58568C6.19464 5.80481 5.80542 5.80481 5.53151 5.58568L0.531506 1.58568C0.20806 1.32692 0.155619 0.854953 0.414376 0.531506Z"
+                      fill="white" />
+                  </svg> </a> -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Journal</a>
+              </li>
+
+            </ul>
+
+            <ul class=" search_under_line_small_device  d-flex  align-items-center  mb-2 mb-lg-0">
+              <li class="  nav-item">
+                <a class=" nav-link " aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                    height="20" viewBox="0 0 20 20" fill="none">
+                    <g clip-path="url(#clip0_0_61)">
+                      <path
+                        d="M15.417 15.4165L18.3337 18.3332M17.5003 9.58317C17.5003 5.21092 13.9559 1.6665 9.58366 1.6665C5.2114 1.6665 1.66699 5.21092 1.66699 9.58317C1.66699 13.9554 5.2114 17.4998 9.58366 17.4998C13.9559 17.4998 17.5003 13.9554 17.5003 9.58317Z"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_0_61">
+                        <rect width="20" height="20" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg></a>
+              </li>
+
+              <li class="  nav-item">
+                <a class=" nav-link " aria-current="page" href="#">Search</a>
+              </li>
+            </ul>
+
+
+            <ul
+              class=" small_device_right_items d-flex justify-content-center align-items-center ms-5 gap-0 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28"
+                    height="28" viewBox="0 0 28 28" fill="none">
+                    <path
+                      d="M5.83398 23.3332V22.1665C5.83398 20.0006 6.6944 17.9233 8.22595 16.3918C9.75749 14.8603 11.8347 13.9998 14.0007 13.9998M14.0007 13.9998C16.1666 13.9998 18.2438 14.8603 19.7754 16.3918C21.3069 17.9233 22.1673 20.0006 22.1673 22.1665V23.3332M14.0007 13.9998C15.2383 13.9998 16.4253 13.5082 17.3005 12.633C18.1757 11.7578 18.6673 10.5708 18.6673 9.33317C18.6673 8.09549 18.1757 6.90851 17.3005 6.03334C16.4253 5.15817 15.2383 4.6665 14.0007 4.6665C12.763 4.6665 11.576 5.15817 10.7008 6.03334C9.82565 6.90851 9.33398 8.09549 9.33398 9.33317C9.33398 10.5708 9.82565 11.7578 10.7008 12.633C11.576 13.5082 12.763 13.9998 14.0007 13.9998Z"
+                      stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="6"
+                    viewBox="0 0 12 6" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M0.414376 0.531506C0.673133 0.20806 1.1451 0.155619 1.46855 0.414376L6.00003 4.03956L10.5315 0.414376C10.855 0.155619 11.3269 0.20806 11.5857 0.531506C11.8444 0.854953 11.792 1.32692 11.4685 1.58568L6.46855 5.58568C6.19464 5.80481 5.80542 5.80481 5.53151 5.58568L0.531506 1.58568C0.20806 1.32692 0.155619 0.854953 0.414376 0.531506Z"
+                      fill="white" />
+                  </svg></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="modal" role="button" href="#exampleModalToggle"><img
+                    src="./assets/images/bottom_nav_right_img.png" alt=""></a>
+              </li>
+            </ul>
+
+
+            <ul class="d-flex justify-content-center align-items-center ms-5 gap-0 mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <ul class="d-flex social-items">
+                  <li> <a class="nav-link p-2" aria-current="page" href="#"><img src="./assets/images/nav_fb_img.png"
+                        alt=""></a></li>
+                  <li> <a class="nav-link p-2" href="#"><img src="./assets/images/nav_insta.png" alt=""></a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#"><img src="./assets/images/nav_pinterest.png" alt=""></a>
+                  </li>
+                  <li> <a class="nav-link p-2" href="#"><img src="./assets/images/nav_tiktok.png" alt=""></a>
+                  </li>
+
+                </ul>
+              </li>
+
+            </ul>
+
+            <ul class="d-flex justify-content-center align-items-center ms-5 gap-0 mb-2 mb-lg-0">
+
+
+              <li class="nav-item ms-lg-4">
+                <ul class="d-flex align-items-center gap-1">
+                  <li>
+                    <a class="nav-link" href="#"><img src="./assets/images/nav_usa_flag.png" alt=""></a>
+                  </li>
+                  <li class="">
+                    <a class="nav-link" href="#">USA(Cad $)</a>
+                  </li>
+                  <li class="">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="6"
+                        viewBox="0 0 12 6" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M0.414376 0.531506C0.673133 0.20806 1.1451 0.155619 1.46855 0.414376L6.00003 4.03956L10.5315 0.414376C10.855 0.155619 11.3269 0.20806 11.5857 0.531506C11.8444 0.854953 11.792 1.32692 11.4685 1.58568L6.46855 5.58568C6.19464 5.80481 5.80542 5.80481 5.53151 5.58568L0.531506 1.58568C0.20806 1.32692 0.155619 0.854953 0.414376 0.531506Z"
+                          fill="white" />
+                      </svg></a>
+                  </li>
+                </ul>
+
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      <div class="nav_border"></div>
+    </div>
+    <!-- small device header -->
+  </header>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- FORM THE JOURNAL SECTION START -->
+  <section class="our_journal ">
+    <div class="container">
+
+      <div class="row">
+
+        <h2 class="our_journal_head">Our Journal
+
+        </h2>
+
+        <div class="journal_items_parent d-flex justify-content-center align-items-center">
+          <a href="#">
+            <p class="journal_items_child">All</p>
+          </a>
+          <a href="#">
+            <p class="journal_items_child">Company</p>
+          </a>
+          <a href="#">
+            <p class="journal_items_child">Feature</p>
+          </a>
+          <a href="#">
+            <p class="journal_items_child">People</p>
+          </a>
+          <a href="#">
+            <p class="journal_items_child">Trending</p>
+          </a>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="col-lg-6 pt-5">
+          <div class="form_the_journal_left_side">
+            <div class="our_journal_btns position-relative ">
+              <img class="img-fluid" src="./assets/images/our_partner_left_img.png" alt="">
+              <button class="btn btn_journal position-absolute">
+                <a class="clr_white" href="#">TRENDING
+                </a>
+              </button>
+            </div>
+            <P class="our_journal_bottom_first_head pt-4">Let's Talk Texture
+            </P>
+            <p class="date_hatd">Jun 8, 2022
+
+            </p>
+            <p class="our_journal_pera pt-2">
+              All product imagery and descriptions belong to and have been graciously <br class="d-none d-lg-block">
+              provided by St. Agni and are
+              displayed for demonstration purposes only. <br class="d-none d-lg-block"> You can buy their products on
+              their online store....
+            </p>
+            <p class="read_more pt-4">Read more
+
+            </p>
+
+          </div>
+
+        </div>
+        <div class="col-lg-6 pt-5 ">
+          <div class="form_the_journal_right_side">
+
+
+
+            <div class="our_journal_btns position-relative ">
+
+              <img class="img-fluid" src="./assets/images/our_partner_img.png" alt="">
+              <button class="btn btn_journal position-absolute">
+                <a class="clr_white" href="#">PEOPLE
+                </a>
+              </button>
+            </div>
+
+            <P class="our_journal_bottom_first_head pt-4">Our Partners, Our Family
+
+
+            </P>
+            <p class="date_hatd">Jun 5, 2022
+
+            </p>
+            <p class="our_journal_pera pt-2">
+              All product imagery and descriptions belong to and have been graciously <br class="d-none d-lg-block">
+              provided by St. Agni and are
+              displayed for demonstration purposes only. <br class="d-none d-lg-block"> You can buy their products on
+              their online store....
+            </p>
+            <p class="read_more pt-4">Read more
+
+            </p>
+
+          </div>
+
+        </div>
+
+
+
+
+        <div class="col-lg-6 pt-5">
+          <div class="form_the_journal_left_side">
+            <div class="our_journal_btns position-relative ">
+              <img class="img-fluid" src="./assets/images/our_journal_img3.png" alt="">
+              <button class="btn btn_journal position-absolute">
+                <a class="clr_white" href="#">TRENDING
+                </a>
+              </button>
+            </div>
+            <P class="our_journal_bottom_first_head pt-4">Let's Talk Texture
+            </P>
+            <p class="date_hatd">Jun 8, 2022
+
+            </p>
+            <p class="our_journal_pera pt-2">
+              All product imagery and descriptions belong to and have been graciously <br class="d-none d-lg-block">
+              provided by St. Agni and are
+              displayed for demonstration purposes only. <br class="d-none d-lg-block"> You can buy their products on
+              their online store....
+            </p>
+            <p class="read_more pt-4">Read more
+
+            </p>
+
+          </div>
+
+        </div>
+        <div class="col-lg-6 pt-5 ">
+          <div class="form_the_journal_right_side">
+
+
+
+            <div class="our_journal_btns position-relative ">
+
+              <img class="img-fluid" src="./assets/images/our_journal_img4.png" alt="">
+              <button class="btn btn_journal position-absolute">
+                <a class="clr_white" href="#">PEOPLE
+                </a>
+              </button>
+            </div>
+
+            <P class="our_journal_bottom_first_head pt-4">Our Partners, Our Family
+
+
+            </P>
+            <p class="date_hatd">Jun 5, 2022
+
+            </p>
+            <p class="our_journal_pera pt-2">
+              All product imagery and descriptions belong to and have been graciously <br class="d-none d-lg-block">
+              provided by St. Agni and are
+              displayed for demonstration purposes only. <br class="d-none d-lg-block"> You can buy their products on
+              their online store....
+            </p>
+            <p class="read_more pt-4">Read more
+
+            </p>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-lg-6 pt-5">
+          <div class="form_the_journal_left_side">
+            <div class="our_journal_btns position-relative ">
+              <img class="img-fluid" src="./assets/images/our_journal_img5.png" alt="">
+              <button class="btn btn_journal position-absolute">
+                <a class="clr_white" href="#">TRENDING
+                </a>
+              </button>
+            </div>
+            <P class="our_journal_bottom_first_head pt-4">Let's Talk Texture
+            </P>
+            <p class="date_hatd">Jun 8, 2022
+
+            </p>
+            <p class="our_journal_pera pt-2">
+              All product imagery and descriptions belong to and have been graciously <br class="d-none d-lg-block">
+              provided by St. Agni and are
+              displayed for demonstration purposes only. <br class="d-none d-lg-block"> You can buy their products on
+              their online store....
+            </p>
+            <p class="read_more pt-4">Read more
+
+            </p>
+
+          </div>
+
+        </div>
+        <div class="col-lg-6  pt-5">
+          <div class="form_the_journal_right_side">
+
+
+
+            <div class="our_journal_btns position-relative ">
+
+              <img class="img-fluid" src="./assets/images/our_journal_img6.png" alt="">
+              <button class="btn btn_journal position-absolute">
+                <a class="clr_white" href="#">PEOPLE
+                </a>
+              </button>
+            </div>
+
+            <P class="our_journal_bottom_first_head pt-4">Our Partners, Our Family
+
+
+            </P>
+            <p class="date_hatd">Jun 5, 2022
+
+            </p>
+            <p class="our_journal_pera pt-2">
+              All product imagery and descriptions belong to and have been graciously <br class="d-none d-lg-block">
+              provided by St. Agni and are
+              displayed for demonstration purposes only. <br class="d-none d-lg-block"> You can buy their products on
+              their online store....
+            </p>
+            <p class="read_more pt-4">Read more
+
+            </p>
+
+          </div>
+
+        </div>
+
+
+
+
+        <div class="col-lg-6 pt-5">
+          <div class="form_the_journal_left_side">
+            <div class="our_journal_btns position-relative ">
+              <img class="img-fluid" src="./assets/images/our_journal_img7.png" alt="">
+              <button class="btn btn_journal position-absolute">
+                <a class="clr_white" href="#">TRENDING
+                </a>
+              </button>
+            </div>
+            <P class="our_journal_bottom_first_head pt-4">Let's Talk Texture
+            </P>
+            <p class="date_hatd">Jun 8, 2022
+
+            </p>
+            <p class="our_journal_pera pt-2">
+              All product imagery and descriptions belong to and have been graciously <br class="d-none d-lg-block">
+              provided by St. Agni and are
+              displayed for demonstration purposes only. <br class="d-none d-lg-block"> You can buy their products on
+              their online store....
+            </p>
+
+            <p class="read_more pt-4">Read more
+
+            </p>
+
+
+
+
+          </div>
+
+        </div>
+        <div class="col-lg-6 pt-5 ">
+          <div class="form_the_journal_right_side">
+
+
+
+            <div class="our_journal_btns position-relative ">
+
+              <img class="img-fluid" src="./assets/images/our_journal_img8.png" alt="">
+              <button class="btn btn_journal position-absolute">
+                <a class="clr_white" href="#">PEOPLE
+                </a>
+              </button>
+            </div>
+
+            <P class="our_journal_bottom_first_head pt-4">Our Partners, Our Family
+
+
+            </P>
+            <p class="date_hatd">Jun 5, 2022
+
+            </p>
+            <p class="our_journal_pera pt-2">
+              All product imagery and descriptions belong to and have been graciously <br class="d-none d-lg-block">
+              provided by St. Agni and are
+              displayed for demonstration purposes only. <br class="d-none d-lg-block"> You can buy their products on
+              their online store....
+            </p>
+            <p class="read_more pt-4">Read more
+
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FORM THE JOURNAL SECTION END -->
+
+
+  <!-- FOOTER SECTION START -->
+
+  <section class="footer bg-dark ">
+    <div class="footer_wrapper">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4">
+
+            <a href="./index.html">
+              <h2 class="footer_head">Luxe Lane</h2>
+            </a>
+            <p class="footer_pera">All product imagery and descriptions belong to and <br class="d-none d-lg-block">have
+              been graciously provided by
+              St. Agni and are <br class="d-none d-lg-block"> displayed for demonstration purposes only. You can <br
+                class="d-none d-lg-block"> buy their products on their <span class="for_underline"> online store.</span>
+            </p>
+
+          </div>
+
+          <div class="col-lg-2">
+            <h6 class="footer_items_head">Our Company</h6>
+            <ul class="footer_items ">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./new_arrivals.html"> New Arrivals Clothing </a></li>
+              <li><a href="#"> Product Catagory</a></li>
+              <li><a href="#"> Accessories</a></li>
+              <li><a href="#"> Blog</a></li>
+              <li><a href="#"> Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2">
+            <h6 class="footer_items_head">Support</h6>
+            <ul class="footer_items ">
+              <li><a href="./about.html">FAQ</a></li>
+              <li><a href="./contact.html"> Shipping</a></li>
+              <li><a href="./blog.html"> Returns & Exchanges</a></li>
+              <li><a href="./our_product.html"> Gift cards</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <h6 class="footer_items_head">NEWSLETTER</h6>
+
+            <p class="footer_right_content">Subscribe to receive the latest <br class="d-none d-lg-block"> news,
+              exclusive <br class="d-none d-lg-block">
+              offers and 10% off your first <br class="d-none d-lg-block"> order.
+            </p>
+
+            <div class="under_line d-flex justify-content-space-between ">
+              <p>Your email</p>
+
+              <span>
+                SUBSCRIBE
+              </span>
+            </div>
+
+            <div class="border_line">
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="footer_bottom_section bg-dark ">
+    <div class="container">
+      <div class="row">
+
+        <div class="footer_bottom_section_parent d-flex justify-content-between ">
+          <div class="icon_group d-flex ">
+            <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M12 2.04004C6.5 2.04004 2 6.53004 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85004C10.44 7.34004 11.93 5.96004 14.22 5.96004C15.31 5.96004 16.45 6.15004 16.45 6.15004V8.62004H15.19C13.95 8.62004 13.56 9.39004 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5879 18.0622 20.3856 19.6099 18.5701C21.1576 16.7546 22.0054 14.4457 22 12.06C22 6.53004 17.5 2.04004 12 2.04004Z"
+                  fill="white" />
+              </svg></a>
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M17.34 5.46C17.1027 5.46 16.8707 5.53038 16.6733 5.66224C16.476 5.79409 16.3222 5.98151 16.2313 6.20078C16.1405 6.42005 16.1168 6.66133 16.1631 6.89411C16.2094 7.12689 16.3236 7.34071 16.4915 7.50853C16.6593 7.67635 16.8731 7.79064 17.1059 7.83694C17.3387 7.88324 17.5799 7.85948 17.7992 7.76866C18.0185 7.67783 18.2059 7.52402 18.3378 7.32668C18.4696 7.12935 18.54 6.89734 18.54 6.66C18.54 6.34174 18.4136 6.03652 18.1885 5.81147C17.9635 5.58643 17.6583 5.46 17.34 5.46ZM21.94 7.88C21.9206 7.0503 21.7652 6.2294 21.48 5.45C21.2257 4.78313 20.83 4.17928 20.32 3.68C19.8248 3.16743 19.2196 2.77418 18.55 2.53C17.7727 2.23616 16.9508 2.07721 16.12 2.06C15.06 2 14.72 2 12 2C9.28 2 8.94 2 7.88 2.06C7.04915 2.07721 6.22734 2.23616 5.45 2.53C4.78168 2.77665 4.17693 3.16956 3.68 3.68C3.16743 4.17518 2.77418 4.78044 2.53 5.45C2.23616 6.22734 2.07721 7.04915 2.06 7.88C2 8.94 2 9.28 2 12C2 14.72 2 15.06 2.06 16.12C2.07721 16.9508 2.23616 17.7727 2.53 18.55C2.77418 19.2196 3.16743 19.8248 3.68 20.32C4.17693 20.8304 4.78168 21.2234 5.45 21.47C6.22734 21.7638 7.04915 21.9228 7.88 21.94C8.94 22 9.28 22 12 22C14.72 22 15.06 22 16.12 21.94C16.9508 21.9228 17.7727 21.7638 18.55 21.47C19.2196 21.2258 19.8248 20.8326 20.32 20.32C20.8322 19.8226 21.2283 19.2182 21.48 18.55C21.7652 17.7706 21.9206 16.9497 21.94 16.12C21.94 15.06 22 14.72 22 12C22 9.28 22 8.94 21.94 7.88ZM20.14 16C20.1327 16.6348 20.0178 17.2637 19.8 17.86C19.6403 18.2952 19.3839 18.6884 19.05 19.01C18.7256 19.3405 18.3332 19.5964 17.9 19.76C17.3037 19.9778 16.6748 20.0927 16.04 20.1C15.04 20.15 14.67 20.16 12.04 20.16C9.41 20.16 9.04 20.16 8.04 20.1C7.38089 20.1123 6.72459 20.0109 6.1 19.8C5.68578 19.6281 5.31136 19.3728 5 19.05C4.66809 18.7287 4.41484 18.3352 4.26 17.9C4.01586 17.2952 3.88044 16.6519 3.86 16C3.86 15 3.8 14.63 3.8 12C3.8 9.37 3.8 9 3.86 8C3.86448 7.35106 3.98295 6.70795 4.21 6.1C4.38605 5.67791 4.65627 5.30166 5 5C5.30381 4.65617 5.67929 4.3831 6.1 4.2C6.70955 3.98004 7.352 3.86508 8 3.86C9 3.86 9.37 3.8 12 3.8C14.63 3.8 15 3.8 16 3.86C16.6348 3.86728 17.2637 3.98225 17.86 4.2C18.3144 4.36865 18.7223 4.64285 19.05 5C19.3777 5.30718 19.6338 5.68273 19.8 6.1C20.0223 6.70893 20.1373 7.35178 20.14 8C20.19 9 20.2 9.37 20.2 12C20.2 14.63 20.19 15 20.14 16ZM12 6.87C10.9858 6.87198 9.99496 7.17453 9.15265 7.73942C8.31035 8.30431 7.65438 9.1062 7.26763 10.0438C6.88089 10.9813 6.78072 12.0125 6.97979 13.0069C7.17886 14.0014 7.66824 14.9145 8.38608 15.631C9.10392 16.3474 10.018 16.835 11.0129 17.0321C12.0077 17.2293 13.0387 17.1271 13.9755 16.7385C14.9123 16.35 15.7129 15.6924 16.2761 14.849C16.8394 14.0056 17.14 13.0142 17.14 12C17.1413 11.3251 17.0092 10.6566 16.7512 10.033C16.4933 9.40931 16.1146 8.84281 15.6369 8.36605C15.1592 7.88929 14.5919 7.51168 13.9678 7.25493C13.3436 6.99818 12.6749 6.86736 12 6.87ZM12 15.33C11.3414 15.33 10.6976 15.1347 10.15 14.7688C9.60234 14.4029 9.17552 13.8828 8.92348 13.2743C8.67144 12.6659 8.6055 11.9963 8.73398 11.3503C8.86247 10.7044 9.17963 10.111 9.64533 9.64533C10.111 9.17963 10.7044 8.86247 11.3503 8.73398C11.9963 8.6055 12.6659 8.67144 13.2743 8.92348C13.8828 9.17552 14.4029 9.60234 14.7688 10.15C15.1347 10.6976 15.33 11.3414 15.33 12C15.33 12.4373 15.2439 12.8703 15.0765 13.2743C14.9092 13.6784 14.6639 14.0454 14.3547 14.3547C14.0454 14.6639 13.6784 14.9092 13.2743 15.0765C12.8703 15.2439 12.4373 15.33 12 15.33Z"
+                  fill="white" />
+              </svg>
+            </a>
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M9.04 21.54C10 21.83 10.97 22 12 22C14.6522 22 17.1957 20.9464 19.0711 19.0711C20.9464 17.1957 22 14.6522 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2C10.6868 2 9.38642 2.25866 8.17317 2.7612C6.95991 3.26375 5.85752 4.00035 4.92893 4.92893C3.05357 6.8043 2 9.34784 2 12C2 16.25 4.67 19.9 8.44 21.34C8.35 20.56 8.26 19.27 8.44 18.38L9.59 13.44C9.59 13.44 9.3 12.86 9.3 11.94C9.3 10.56 10.16 9.53 11.14 9.53C12 9.53 12.4 10.16 12.4 10.97C12.4 11.83 11.83 13.06 11.54 14.24C11.37 15.22 12.06 16.08 13.06 16.08C14.84 16.08 16.22 14.18 16.22 11.5C16.22 9.1 14.5 7.46 12.03 7.46C9.21 7.46 7.55 9.56 7.55 11.77C7.55 12.63 7.83 13.5 8.29 14.07C8.38 14.13 8.38 14.21 8.35 14.36L8.06 15.45C8.06 15.62 7.95 15.68 7.78 15.56C6.5 15 5.76 13.18 5.76 11.71C5.76 8.55 8 5.68 12.32 5.68C15.76 5.68 18.44 8.15 18.44 11.43C18.44 14.87 16.31 17.63 13.26 17.63C12.29 17.63 11.34 17.11 11 16.5L10.33 18.87C10.1 19.73 9.47 20.88 9.04 21.57V21.54Z"
+                  fill="white" />
+              </svg>
+            </a>
+            <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M16.6002 5.82C15.9166 5.03962 15.5399 4.03743 15.5402 3H12.4502V15.4C12.4263 16.071 12.143 16.7066 11.6599 17.1729C11.1768 17.6393 10.5316 17.8999 9.86016 17.9C8.44016 17.9 7.26016 16.74 7.26016 15.3C7.26016 13.58 8.92016 12.29 10.6302 12.82V9.66C7.18016 9.2 4.16016 11.88 4.16016 15.3C4.16016 18.63 6.92016 21 9.85016 21C12.9902 21 15.5402 18.45 15.5402 15.3V9.01C16.7932 9.90985 18.2975 10.3926 19.8402 10.39V7.3C19.8402 7.3 17.9602 7.39 16.6002 5.82Z"
+                  fill="white" />
+              </svg></a>
+          </div>
+
+
+          <div class=" footer_img_group d-flex  align-items-end">
+            <h6 class="footer_items_head ">Accepted:</h6>
+            <img src="./assets/images/footer_img1.png" alt="">
+            <img src="./assets/images/footer_img2.png" alt="">
+            <img src="./assets/images/footer_img3.png" alt="">
+            <img src="./assets/images/ftr_img3.png" alt="">
+          </div>
+
+        </div>
+
+        <div class="footer_bottom_line">
+
+        </div>
+
+        <p class="copyright">Copyright © 2024, luxelane. All rights reserved. </p>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <button id="scrollBtn" onclick="topFunction()" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+
+
+  <!-- FOOTER SECTION END -->
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <!-- jQuery first, then Bootstrap JS, then Slick JS -->
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+  <!-- slick  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- <script src="./assets/js/main.js"></script> -->
+
+  <!-- slick  -->
+  <!-- <script>
+    AOS.init();
+  </script> -->
+
+  <!-- slick  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/script.js"></script>
+
+  <!-- slick  -->
+
+
+  <!------------- FOR COUNTER UP ------------>
+  <script>
+    $(".number").counterUp({ time: 1000 });
+  </script>
+
+
+  <!------------- FOR COUNTER UP ------------>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("scrollBtn").style.display = "block";
+      } else {
+        document.getElementById("scrollBtn").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+
+
+</body>
+
+</html>

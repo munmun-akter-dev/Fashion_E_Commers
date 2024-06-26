@@ -1,0 +1,1969 @@
+@media screen and (max-width: 1430px) {}
+
+
+@media screen and (max-width: 1024px) {
+  .save_left_side_content {
+    padding-left: 0px;
+  }
+
+  /* 30-05-24 */
+  .offset-1 {
+    margin-left: 0;
+  }
+
+  .pinal_heel_parent_order_right_side {
+    padding-left: 68px;
+  }
+
+
+  .order_confirm {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .pinal_heel_parent_order_right_content {
+    gap: 50px;
+
+  }
+
+  .pinal_heel_head {
+
+    font-size: 14px;
+
+  }
+
+  .subtotal_parent {
+    padding-top: 50px;
+  }
+
+  .heel_pera {
+
+    padding-left: 35px;
+
+  }
+
+  .mid_night {
+
+    font-size: 12px;
+
+  }
+
+  ul.d-flex.social-items {
+    gap: 3px !important;
+  }
+
+  /* 30-05-24 */
+
+
+
+  /* 29-5-24 start */
+  ul.d-flex.social-items {
+    gap: 10px;
+  }
+
+  .bottom.navbar-expand-lg {
+
+    padding-left: 10px;
+  }
+
+  /* 29-5-24 end */
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  .border_line {
+
+    width: 100%;
+
+  }
+
+  .under_line p {
+
+    font-size: 14px;
+
+  }
+
+  .under_line span {
+
+    font-size: 14px;
+
+  }
+
+  .btn.btn_journal {
+
+    width: 115px;
+    height: 35px;
+
+  }
+
+  .footer_pera {
+    padding-top: 18px;
+
+    font-size: 15px;
+
+  }
+
+  .for_underline {
+
+    font-size: 17px;
+
+    padding-left: 0px;
+  }
+
+  .footer_items li {
+    margin-top: 8px;
+  }
+
+  .shoebag button.slick-next {
+
+    display: none !important;
+  }
+
+  .latestArrival button.slick-prev {
+    left: 91%;
+
+  }
+
+  .mySliderFile button.slick-prev {
+    left: 93%;
+  }
+
+  .shoebag button.slick-next {
+    display: none;
+  }
+
+  .tote button.slick-prev {
+    left: -3px;
+
+  }
+
+  .our_testimonial {
+    margin-bottom: 50px;
+  }
+
+  .title_items {
+    top: 60%;
+  }
+
+  .behind_scene {
+    margin-bottom: 0px;
+
+    height: 400px;
+
+  }
+
+  .center button.slick-next.slick-arrow {
+
+    display: none !important;
+  }
+
+  .shearling_tote_left_side {
+    padding-left: 20px;
+  }
+
+  .stileto_pairing_items_child_parent {
+
+    left: 40px;
+  }
+
+  .our_test button.slick-prev {
+    left: 162px;
+
+  }
+
+  .stileto_pairing_content_pera {
+    font-size: 17px;
+  }
+
+  .center button.slick-next.slick-arrow {
+
+    display: none;
+  }
+
+  .tote button.slick-prev {
+    left: 50px;
+
+  }
+
+
+  .card {
+    width: 20rem !important;
+  }
+
+  .nav_head {
+    font-size: 40px;
+
+  }
+
+  .hero_bottom {
+    gap: 20px;
+  }
+
+  .hero_bottom {
+    padding: 0 20px 0 20px;
+    /* height: 110px; */
+  }
+
+  .hero_bottom_line_group {
+
+    gap: 20px;
+  }
+
+  .hero_bottom_child h3 {
+
+    font-size: 30px;
+
+  }
+
+  .hero_bottom_child p {
+    font-size: 14px;
+  }
+
+  .several {
+    margin-top: 0px;
+  }
+
+
+  .sev.test_items_child_pera.d-flex.justify-content-between.w-100.align-items-center {
+    justify-content: start !important;
+    align-items: start !important;
+    flex-direction: column;
+  }
+
+  .sev.test_items_child_pera button {
+    margin-top: 20px;
+  }
+
+  .several_pera {
+    font-size: 39px;
+    line-height: 139%;
+    padding-top: 40px;
+  }
+
+  .btn.btn_primary {
+
+    width: 144px;
+    height: 43px;
+
+  }
+
+
+  .several_bottom_pera {
+    margin-top: 30px;
+
+  }
+
+  .save_left_side_parent {
+    padding: 30px
+  }
+
+  .save_parent {
+    height: 560px;
+  }
+
+  .fifty {
+
+    font-size: 83px;
+
+  }
+
+  /* 
+  .popular_collection_img_items_parent {
+
+    justify-content: center;
+    align-items: center;
+  } */
+
+
+}
+
+@media screen and (max-width:768px) {
+
+  .save_left_side_content {
+    padding-left: 0px;
+  }
+
+  /* 30-05-24 */
+  .offset-1 {
+    margin-left: 0;
+  }
+
+  .order_confirm:after {
+    position: unset;
+
+  }
+
+  .order_confirm {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+  }
+
+  .email_me {
+
+    padding-bottom: 50px;
+
+  }
+
+  .pinal_heel_parent_order_right_side {
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+
+
+
+  /* 30-05-24 */
+
+
+
+  /* 29-5-24 start */
+  .under_line {
+    padding-top: 40px;
+    justify-content: space-between !important;
+  }
+
+  .new_arrival {
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  .new_arrival_content_parent {
+    padding-bottom: 5PX;
+  }
+
+  .newArrival {
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    padding-top: 30px;
+
+  }
+
+  .footer_img_group {
+    padding-top: 30px;
+    flex-wrap: wrap;
+  }
+
+
+  .icon_group {
+    padding-top: 55px;
+
+  }
+
+  ul.d-flex.social-items {
+    gap: 13px;
+  }
+
+  .origami_dress_right_side {
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+
+  .origami_dress_left_side_small_img_group {
+    padding-top: 50px;
+    justify-content: center !important;
+    gap: 70px;
+  }
+
+  .origami_dress {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+
+  .description {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .description_child {
+
+    font-size: 21px;
+
+  }
+
+  /* 29-5-24 end*/
+
+
+
+  .title_items {
+
+    top: 24%;
+
+  }
+
+  .first_title {
+
+    padding-top: 19px;
+  }
+
+  .second_title {
+
+    padding-top: 15px !important;
+    font-size: 32px;
+
+  }
+
+  .our_testimonial {
+    margin-bottom: 50px;
+  }
+
+  .circle {
+
+    padding-top: 30px;
+  }
+
+  .stileto_pairing_items_child_parent {
+    left: 133px;
+  }
+
+  .shearling_tote_left_side {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+  }
+
+  .stileto_pairing.testimonial_parent {
+    padding-top: 0px;
+    margin-right: 0px;
+  }
+
+  .latest_arrival {
+    margin-bottom: 30px;
+  }
+
+  .popular_collection_img_items_parent {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    border: 1px solid #683A25;
+    background: #FFF;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    width: 95% !important;
+  }
+
+  .card-title {
+
+    font-size: 14px;
+
+  }
+
+  .shoe_bag {
+    margin-bottom: 10px;
+  }
+
+  .shoe_sandle {
+    margin-bottom: 40px;
+    margin-left: 0px;
+  }
+
+  .shoe_sandle_img_pera {
+
+    font-size: 14px;
+
+  }
+
+  .shoe_sandle_heading {
+
+    font-size: 18px;
+    padding-top: 10px;
+
+  }
+
+  .shoe_sandle_img_bottom_pera {
+
+    font-size: 14px;
+
+  }
+
+  .shoe_sandle_parent.test_items_child_pera {
+    padding: 10px;
+  }
+
+  .slick-prev {
+
+    display: none !important;
+  }
+
+  .slick-next {
+
+    display: none !important;
+  }
+
+  .hero {
+    height: 400px;
+  }
+
+  .hero_bottom_parent {
+    justify-content: hidden !important;
+    /* flex-wrap: nowrap !important; */
+  }
+
+  .hero_bottom {
+    gap: 0px;
+  }
+
+  .hero_bottom {
+    padding: 10px;
+
+  }
+
+  .hero_bottom_line_group {
+    padding-top: 13px;
+    gap: 25px;
+    padding-right: 10px;
+  }
+
+  .hero_pera {
+    padding-top: 100px;
+  }
+
+
+  .hero_btn_group {
+    padding-bottom: 50px;
+  }
+
+  .several {
+    margin-top: 30px;
+  }
+
+  .several_img_parent.d-flex.justify-content-center.align-items-center {
+
+    flex-flow: column;
+
+  }
+
+  .several .testimonial_parent {
+    margin-bottom: 20px;
+  }
+
+  .several_bottom_pera {
+    margin-top: 20px;
+
+  }
+
+  .several_pera {
+
+    font-size: 30px;
+
+  }
+
+  .devider {
+    display: none;
+  }
+
+  .save_left_side_parent {
+    padding: 0px;
+  }
+
+  .save_parent {
+    padding: 30px;
+  }
+
+
+  .right_top_head {
+    padding-top: 50px;
+  }
+
+  .fifty {
+
+    font-size: 65px;
+
+  }
+
+  .save_parent {
+    height: 500px;
+  }
+
+
+  .save_left_side_parent {
+    justify-content: start;
+    align-items: start;
+  }
+
+}
+
+
+
+@media screen and (max-width: 425px) {
+
+  .save_left_side_content {
+    padding-left: 0px;
+  }
+
+  /* for modal */
+
+  .modal-content {
+
+    max-height: 525px;
+
+  }
+
+  .footware_size_box_parent {
+
+    padding-top: 10px;
+  }
+
+  .cart_middle_pera {
+
+    font-size: 14px;
+
+    padding-top: 5px !important;
+  }
+
+  .under_line_modal_child {
+    font-size: 18px;
+  }
+
+  .cart_middle_head {
+    padding-top: 7px !important;
+    font-size: 24px;
+
+  }
+
+  .modal-title {
+
+    font-size: 26px;
+
+  }
+
+  .modal-header .btn-close {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
+  /* for modal */
+
+
+
+  /* 29-5-24 start */
+
+  .new_arrival {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .newArrival {
+    margin-bottom: 30px;
+  }
+
+
+  .content_bottom_pera {
+    font-size: 14px;
+    padding-top: 5px;
+  }
+
+  .new_arrival_head {
+
+    font-size: 30px;
+
+  }
+
+  .new_arrival_content_parent {
+    padding-bottom: 10PX;
+  }
+
+
+
+  .new_arrival_heading {
+    margin-top: 30px;
+
+  }
+
+  .social-items {
+    gap: 10px;
+  }
+
+  .origami_dress {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .origami_dress_left_side_small_img_group {
+    padding-top: 20px;
+
+    flex-direction: column;
+  }
+
+  .origami_dress_right_side {
+    padding-left: 0px;
+  }
+
+
+  .origami_dress_right_head {
+    padding-top: 20px;
+    font-size: 20px;
+
+  }
+
+  .review {
+    font-size: 15px;
+    padding-left: 0px;
+  }
+
+
+  .start_items_parent {
+    padding-top: 15px;
+    gap: 15px;
+
+    justify-content: center !important;
+
+    flex-wrap: wrap;
+  }
+
+
+  .dollar_rate {
+
+    font-size: 24px;
+
+  }
+
+  .accordion_content {
+    padding-top: 10px;
+    font-size: 14px;
+
+  }
+
+  #read-more-link {
+
+    font-size: 14px;
+
+    line-height: 22px;
+  }
+
+  .cart_parent_head {
+    padding-top: 20px;
+
+  }
+
+  .btn.btn_add_to_cart {
+    width: 225%;
+    padding: 0;
+    height: 60px;
+  }
+
+  .description_child {
+    padding-bottom: 15px;
+
+    font-size: 10px;
+
+  }
+
+  .description {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .product_details_img_group {
+
+    padding-bottom: 10px;
+  }
+
+  .tag_pera {
+    font-size: 13px;
+  }
+
+  .thirty_degree_parent {
+    padding-top: 24px;
+    padding-bottom: 15px;
+  }
+
+  .creative_pera {
+
+    font-size: 14px;
+
+  }
+
+  .add_wishlist {
+    font-size: 14px;
+  }
+
+
+  ul.pera_list.pt-2 {
+    padding-top: 0 !important;
+  }
+
+
+
+
+  .machine_wash_dot_list li {
+    padding-top: 5px;
+  }
+
+  .simple_order_list li {
+
+    font-size: 14px;
+  }
+
+  .review_level_parent {
+
+    flex-wrap: wrap;
+  }
+
+  .customer_review_left_side {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .customer_review_right_side {
+    padding-top: 50px;
+  }
+
+  .baggy_child_content {
+    font-size: 14px;
+    line-height: 120%;
+  }
+
+  .baggy_parent {
+    padding-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .baggy_head {
+    font-size: 18px;
+    padding-top: 15px;
+  }
+
+  .related_product_head {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  .related_product_section {
+    margin-bottom: 20px;
+  }
+
+  #book {
+    font-size: 12px;
+    background: white;
+    color: black;
+    padding: 10px;
+  }
+
+  .baggy_date {
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+
+  .baggy_child {
+    text-align: center;
+  }
+
+  .most_recent {
+    margin-right: 0px;
+
+    justify-content: center !important;
+  }
+
+  .customer_review_left_second_head {
+
+    padding-bottom: 35px;
+
+  }
+
+  .machine_wash {
+    justify-content: center;
+  }
+
+  .pera_list li {
+
+    font-size: 13px;
+
+  }
+
+  .tag_head {
+    font-size: 16px;
+  }
+
+  .counter_btn {
+    height: 60px;
+    width: 100%;
+
+  }
+
+  .tags_parent {
+    padding-top: 25px;
+  }
+
+  .our_journal_head {
+    font-size: 36px;
+    margin-top: 10px;
+  }
+
+
+
+  .journal_items_parent {
+    margin-top: 0px;
+
+  }
+
+  .our_journal {
+    margin-bottom: 40px;
+  }
+
+  /* 29-5-24  end*/
+
+
+
+  /* 30-05-24 start*/
+
+  .behind_scene {
+
+    background-size: contain;
+
+  }
+
+  .total_bold {
+
+    font-size: 14px;
+
+  }
+
+  .left_sub_total_child_head {
+
+    font-size: 14px;
+
+  }
+
+  .delivery {
+
+    font-size: 15px;
+
+  }
+
+  .contact_head {
+
+    font-size: 20px;
+
+  }
+
+  .single_boxes input {
+
+    font-size: 12px;
+
+    height: 45px;
+
+  }
+
+  .cal_light {
+
+    font-size: 16px;
+
+  }
+
+  .order_confirm:after {
+    position: unset;
+
+  }
+
+
+  .order_confirm {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: unset;
+  }
+
+  .offset-1 {
+    margin-left: 0;
+  }
+
+  .pinal_heel_parent_order_right_side {
+    padding-left: 0px;
+  }
+
+  .pinal_heel_head {
+
+    font-size: 16px;
+
+  }
+
+
+  .pinal_heel_parent_order_right_content {
+    gap: 20px;
+    padding-top: 30px;
+
+  }
+
+  .mid_night {
+
+    font-size: 12px;
+
+  }
+
+
+  .dip_single_boxes input {
+    padding: 10px;
+
+    font-size: 12px;
+
+    border-radius: 5px;
+    height: 45px;
+  }
+
+
+  .input-group-text {
+
+    padding: 10px;
+    font-size: 12px;
+
+
+    height: 45px;
+
+  }
+
+  .email_me_shipping {
+
+    font-size: 14px;
+
+    padding-bottom: 30px;
+    padding-left: 3px;
+  }
+
+  .email_me {
+
+    padding-bottom: 20px;
+
+  }
+
+  .email_me {
+
+    font-size: 14px;
+
+    padding-left: -12px;
+  }
+
+  /* .credit_card .label {
+    padding-left: 5px;
+    padding-top: 15px;
+  } */
+
+  .credit_card label {
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+
+  .payment_single_boxes input {
+
+    padding: 10px;
+
+    font-size: 12px;
+
+    height: 45px;
+
+  }
+
+  .svg_icon {
+
+    transform: translate(45%, -150%);
+  }
+
+  .single_box {
+    height: 45px;
+    padding: 10px;
+  }
+
+  .btn.btn_pay_now {
+    height: 45px;
+  }
+
+  .payment_parent {
+
+    height: 530px;
+
+  }
+
+
+  #booktwo {
+
+    padding: 10px;
+
+    font-size: 12px;
+
+    border-radius: 5px;
+    height: 45px;
+
+  }
+
+  .double_box input {
+    height: 45px;
+    font-size: 12px;
+  }
+
+  #bookthree {
+
+    padding: 10px;
+
+    font-size: 12px;
+
+    border-radius: 5px;
+    height: 45px;
+  }
+
+  #bookfour {
+    padding: 10px;
+
+    font-size: 12px;
+
+    border-radius: 5px;
+    height: 45px;
+  }
+
+  .heel_pera {
+    font-size: 14px;
+  }
+
+  .subtotal_parent {
+    padding-top: 40px;
+  }
+
+  .navbar-toggler {
+    background-color: white;
+    width: 40px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login.modal-body {
+    padding: 20px;
+  }
+
+  .login.modal-content {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .reset_pera {
+    font-size: 14px;
+  }
+
+  .remember_me {
+
+    font-size: 14px;
+
+  }
+
+
+
+  .modal_add_to_cart_button.pt-5 {
+    padding-top: 20px !important;
+  }
+
+  .latest_child_items_underline {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  /* 30-05-24 end*/
+
+  .shoe_bag_border {
+
+    margin-top: 30px;
+  }
+
+  .footer_img_group {
+    justify-content: start !important;
+  }
+
+
+  .footer_bottom_section_parent.d-flex.justify-content-between {
+    flex-direction: column;
+  }
+
+  .footer_head {
+    font-size: 34px;
+  }
+
+
+  .footer_pera {
+    padding-top: 0px;
+    font-size: 12px;
+    line-height: 120%;
+  }
+
+  .for_underline {
+    font-size: 13px;
+  }
+
+  .footer_items_head {
+    font-size: 16px;
+  }
+
+
+  .footer_items li {
+    margin-top: 2px;
+  }
+
+
+
+
+
+  .behind_scene {
+    margin-bottom: 200px;
+    width: 100%;
+    height: 200px;
+  }
+
+
+
+  .circle svg {
+    width: 40px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  /* .title_items {
+
+    padding-bottom: 0px;
+
+  } */
+
+  .title_items {
+    /* padding-top: 400px; */
+    padding-bottom: 100px;
+
+    top: 40%;
+
+
+  }
+
+  .our_testimonial_pera {
+
+    font-size: 14px;
+
+  }
+
+  .our_bottom_pera {
+    font-size: 18px;
+
+  }
+
+  .our_bottom_ceo {
+
+    font-size: 14px;
+
+  }
+
+
+  .shearling_tote_left_head {
+    padding-top: 10px;
+    font-size: 32px;
+    line-height: 120%;
+
+  }
+
+  .shearling_tote_left_pera {
+    font-size: 14px;
+  }
+
+  .shearling_tote_left_top_head {
+    font-size: 15px;
+  }
+
+  .shearling_tote_left_btn>button {
+    width: 40% !important;
+
+  }
+
+  .btn_stileto_pairing.text-align-center {
+    margin-top: 0px;
+  }
+
+  .card-text {
+    gap: 10px !important;
+  }
+
+  .popular_collection_img_items_parent {
+    flex-direction: column;
+  }
+
+  .mySliderFile {
+    margin-bottom: 0px;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: column;
+
+
+    gap: 5px;
+  }
+
+  .ms-5 {
+    margin-left: 0 !important;
+  }
+
+
+  /* .card_parent.d-flex {
+  } */
+
+
+  .card {
+    width: 100% !important;
+    margin-right: 0px !important;
+  }
+
+  .card-title {
+    font-size: 17px;
+  }
+
+  .items_parent {
+    gap: 10px;
+  }
+
+
+  .latest_arrival_child_parent.d-flex {
+    gap: 10px;
+  }
+
+  .latest_child_items {
+    font-size: 14px;
+  }
+
+  .card_parent.d-flex {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .img_group img {
+    width: 25px;
+    height: 30px;
+  }
+
+  .popular_collection_img_parent {
+    flex-direction: column;
+  }
+
+  .btn.btn_popular {
+    width: 360px;
+
+
+  }
+
+
+  .mySliderFile.d-flex.slick-initialized.slick-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .several_img_parent.d-flex.justify-content-center.align-items-center {
+    flex-direction: column;
+  }
+
+
+  .save_left_side_parent {
+    /* padding: 150px 95px 70px 150px; */
+    padding: 0;
+  }
+
+  .fifty {
+
+    font-size: 50px;
+    margin-bottom: 10px;
+
+  }
+
+  .right_top_head {
+    padding-top: 20px;
+  }
+
+  .devider {
+    display: none;
+  }
+
+
+  .popular_collection_img_parent.d-flex.justify-content-center.align-items-center {
+    flex-direction: column;
+  }
+
+
+  .several_bottom_pera {
+    margin-top: 10px;
+    line-height: 120%;
+    font-size: 20px;
+  }
+
+  .several_pera {
+    padding-top: 0px;
+  }
+
+  .save_parent {
+
+    height: 450px;
+
+    padding: 20px;
+  }
+
+  .right_second_head {
+
+    font-size: 17px;
+
+  }
+
+  .several_pera {
+    font-size: 29px;
+    line-height: 120%;
+    text-align: center;
+  }
+
+  .several {
+    margin-top: 30px;
+  }
+
+  .hero_pera {
+    padding-top: 30px;
+    font-size: 16px;
+
+
+  }
+
+  .hero_head {
+    font-size: 38px;
+  }
+
+  .hero_btn_group {
+
+    padding-bottom: 50px;
+  }
+
+  .hero_bottom_parent {
+    justify-content: hidden !important;
+    flex-wrap: nowrap !important;
+  }
+
+
+  /* .hero_bottom {
+
+    gap: 0px;
+
+  } */
+
+  .hero_bottom_child span {
+    font-size: 10px;
+
+  }
+
+  .hero {
+    height: 300px;
+  }
+
+
+  .hero_bottom_line_group {
+    gap: 5px;
+    padding-right: 10px;
+  }
+
+
+
+  .hero_bottom_child h3 {
+
+    font-size: 15px;
+
+  }
+
+  .btn.btn_secondary {
+
+    width: 100%;
+    height: 42px;
+    padding: 10px;
+
+  }
+
+  .clr_white {
+    font-size: 10px;
+  }
+
+  .hero_bottom_child h4 {
+    font-size: 16px;
+  }
+
+  .hero_bottom_child button {
+    padding-right: 20px;
+  }
+
+  .btn.btn_primary {
+    width: 121px;
+    height: 35px;
+  }
+
+  .clr_black {
+    font-size: 12px;
+  }
+
+  .sev .test_items_child_pera {
+
+    gap: 55px !important;
+    padding: 0 20px 29px 20px !important;
+  }
+
+  .img_left_txt {
+    font-size: 18px;
+
+  }
+
+  .btn.btn_journal {
+
+    width: 95px;
+    height: 30px;
+
+  }
+
+  .latest_arrival {
+    margin-bottom: 0px;
+  }
+
+  .popular_collection_head {
+    font-size: 26px;
+    line-height: 130%;
+    padding-top: 30px;
+  }
+
+  .popular_collection_right_head {
+
+    font-size: 10px;
+
+  }
+
+  .popular_collection_heading {
+
+    font-size: 30px;
+    padding-top: 20px;
+
+  }
+
+  .popular_collection_right_head {
+    padding-top: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .popular_collection_heading_parent {
+    flex-direction: column;
+  }
+
+  .shoe_bag {
+    margin-bottom: 20px;
+  }
+
+  .mt-5 {
+    margin-top: 0rem !important;
+  }
+
+  .stileto_pairing_bottom_pera {
+
+    font-size: 12px;
+
+  }
+
+  .shoe_sandle_img_pera {
+
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .stileto_pairing_items_child_parent {
+    position: absolute;
+    z-index: 1;
+    bottom: 29px;
+    left: 20px;
+  }
+
+  .shoe_sandle_img_bottom_pera {
+    font-size: 11px;
+
+  }
+
+
+  .stileto_pairing_content_pera {
+
+    align-items: center;
+
+    padding: 0px;
+    font-size: 11px;
+  }
+
+  .stileto_pairing_items_child_parent {
+
+    left: 50px;
+
+  }
+
+  .btn.btn_stileto_pairing {
+
+    width: 126px;
+    height: 40px;
+
+  }
+
+  .stileto_pairing_content_img_bottom_pera {
+
+    font-size: 13px;
+    padding-top: 0px !important;
+
+  }
+
+  .stileto_pairing {
+    margin-top: 20px !important;
+  }
+
+  .stileto_pairing_head {
+    font-size: 30px;
+    line-height: 127%;
+  }
+
+  .form_the_journal_right_side {
+    padding-top: 0px;
+  }
+
+  .our_journal_bottom_first_head {
+
+    font-size: 20px;
+
+  }
+
+
+  .footware.modal-content {
+
+    width: 100%;
+    height: 100%;
+
+    padding: 20px !important;
+  }
+
+  .modal_dolar_rate_child {
+
+
+    padding-top: 10px;
+  }
+
+  .modal_add_to_cart_button {
+    padding-bottom: 10px;
+  }
+
+  .btn.btn_modal_add_to_cart {
+
+    width: 100%;
+    height: 60px;
+  }
+
+  .cart-parent {
+    padding-bottom: 20px;
+  }
+
+  .btn.btn_modal_paypal {
+
+    width: 74%;
+
+    height: 60px;
+  }
+
+  .modal_black_clr {
+    font-size: 12px;
+
+  }
+
+  .modal_dolar_rate_child {
+
+    font-size: 20px;
+
+  }
+
+  .size_ratio {
+
+    padding-top: 0px;
+  }
+
+  .modal_cart_parent_head {
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  /* .title_items {
+    padding-top: 0px;
+
+
+  } */
+
+  .first_title {
+    padding-top: 20px;
+
+  }
+
+  .second_title {
+    font-size: 17px;
+    padding-top: 10px !important;
+  }
+
+  .third_title {
+    font-size: 10px;
+  }
+
+  .first_title {
+    font-size: 12px;
+  }
+
+  .btn.btn_popular {
+    height: 55px;
+  }
+
+  /* .testimonial_parent {
+    margin-bottom: 0;
+  } */
+
+  .behind_scene {
+    margin-bottom: 0px;
+  }
+
+  .stileto_pairing {
+    padding-bottom: 0px;
+  }
+
+  .form_the_journal_head {
+    font-size: 24px;
+  }
+
+  .journal {
+    margin-bottom: 30px;
+  }
+
+  .footer_img_group {
+    padding-top: 25px;
+    gap: 25px;
+  }
+
+  .footer_img_group img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon_group {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .footer_bottom_line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+
+  .bottom_line {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  .under_line {
+    padding-top: 20px;
+    justify-content: space-between;
+  }
+
+  .under_line span {
+    font-size: 11px;
+  }
+
+  .border_line {
+    width: 100%;
+  }
+
+  .stileto_pairing.testimonial_parent {
+    padding-top: 0px !important;
+    margin-right: 2px;
+  }
+
+  .stileto_pairing.testimonial_parent {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .shearling_tote_left_side {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+
+  .testimonial_head {
+    margin-top: 26px;
+    font-size: 30px;
+  }
+
+  .read_more {
+    font-size: 12px;
+  }
+
+  .our_journal_pera {
+    font-size: 12px;
+  }
+
+  .shearling_tote_left_side {
+
+    padding-left: 0px;
+  }
+
+
+  .footer_right_content {
+    font-size: 13px;
+  }
+
+  .footer_items li a {
+    font-size: 13px;
+  }
+
+  .date_hatd {
+    font-size: 15px;
+  }
+
+  .nav-link {
+    padding: .2rem 0.5rem !important;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 13px;
+  }
+
+  #scrollBtn {
+    right: 10px;
+    width: 44px;
+    height: 45px;
+  }
+
+
+  .popular_collection_img_parent.mb-5.position-relative {
+    margin-bottom: 15px !important;
+  }
+
+  .testimonial_items_parent {
+    padding-top: 10px;
+  }
+
+  .our_testimonial {
+    margin-bottom: 40px;
+  }
+
+  .single_boxes {
+    padding-top: 20px;
+  }
+
+  .p-5 {
+    padding: 2rem !important;
+  }
+
+  .btn.btn_chocolate {
+
+    width: 140px;
+    height: 45px;
+
+  }
+
+  .save_right_side_parent {
+    padding-top: 30px;
+  }
+
+
+  .popular_items_parent {
+    margin-right: 0px;
+    padding: 10px;
+  }
+
+  .colors_group {
+    padding-bottom: 11px;
+  }
+
+  .rate {
+
+    font-size: 16px;
+
+  }
+
+  .colors_group span {
+    font-size: 15px;
+    padding-top: 2px;
+  }
+
+  .latest_arrival_head {
+    font-size: 34px;
+
+  }
+
+  .footer_bottom_section_parent.d-flex.justify-content-between {
+    flex-direction: column;
+  }
+
+
+  .nav-link {
+    color: white !important;
+    font-size: 14px !important;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .btn.btn_journal {
+    width: 85px;
+    height: 26px;
+  }
+
+  .stileto_pairing_items_child_parent {
+    left: 20px;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
+
+  .stileto_pairing_pera {
+    font-size: 13px;
+
+  }
+
+  .btn.btn_popular {
+    width: 305px;
+    height: 58px;
+
+
+    padding: 20px;
+  }
+
+  .hero_bottom_child h4 {
+    font-size: 11px;
+  }
+
+  .hero_bottom_line_group {
+
+    /* padding-right: 18px; */
+  }
+
+  .hero_bottom {
+    padding: 0px;
+  }
+
+  .test_items_child_pera {
+    padding: 0 14px 23px 17px;
+  }
+
+}

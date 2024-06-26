@@ -1,0 +1,162 @@
+<header class="d-none d-lg-block ">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav align-items-center w-100 flex-wrap ">
+
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Stockists</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+          <li class="nav-item me-lg-auto">
+            <a class="nav-link" href="#">Theme</a>
+          </li>
+
+
+          <li class="nav-item ">
+            <ul class="d-flex social-items  ">
+              <li> <a class="nav-link p-2" aria-current="page" href="#"><img src="./assets/images/nav_fb_img.png"
+                    alt=""></a></li>
+              <li> <a class="nav-link p-2" href="#"><img src="./assets/images/nav_insta.png" alt=""></a>
+              </li>
+              <li>
+                <a class="nav-link" href="#"><img src="./assets/images/nav_pinterest.png" alt=""></a>
+              </li>
+              <li> <a class="nav-link p-2" href="#"><img src="./assets/images/nav_tiktok.png" alt=""></a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="nav-item ms-lg-4">
+            <ul class="d-flex align-items-center">
+              <li>
+                <a class="nav-link" href="#"><img src="./assets/images/nav_usa_flag.png" alt=""></a>
+              </li>
+              <li class="">
+                <a class="nav-link" href="#">USA(CAD $)</a>
+              </li>
+              <li class="">
+                <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="6"
+                    viewBox="0 0 12 6" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M0.414376 0.531506C0.673133 0.20806 1.1451 0.155619 1.46855 0.414376L6.00003 4.03956L10.5315 0.414376C10.855 0.155619 11.3269 0.20806 11.5857 0.531506C11.8444 0.854953 11.792 1.32692 11.4685 1.58568L6.46855 5.58568C6.19464 5.80481 5.80542 5.80481 5.53151 5.58568L0.531506 1.58568C0.20806 1.32692 0.155619 0.854953 0.414376 0.531506Z"
+                      fill="white" />
+                  </svg></a>
+              </li>
+            </ul>
+
+          </li>
+
+        </ul>
+
+
+      </div>
+    </div>
+  </nav>
+  <div class="nav_border"></div>
+
+
+
+  <!-- bottom header -->
+  <div class=" ">
+    <nav class="navbar bottom navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <h2 class="nav_head">
+            Luxe Lane
+          </h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav align-items-center ms-auto  me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">NEW ARRIVALS CLOTHING </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product Catagory<svg xmlns="http://www.w3.org/2000/svg" width="12" height="6"
+                  viewBox="0 0 12 6" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0.414376 0.531506C0.673133 0.20806 1.1451 0.155619 1.46855 0.414376L6.00003 4.03956L10.5315 0.414376C10.855 0.155619 11.3269 0.20806 11.5857 0.531506C11.8444 0.854953 11.792 1.32692 11.4685 1.58568L6.46855 5.58568C6.19464 5.80481 5.80542 5.80481 5.53151 5.58568L0.531506 1.58568C0.20806 1.32692 0.155619 0.854953 0.414376 0.531506Z"
+                    fill="white" />
+                </svg> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our JOURNAL</a>
+            </li>
+
+          </ul>
+
+          <ul class=" search_under_line navbar-nav align-items-center  mb-2 mb-lg-0">
+            <li class="  nav-item">
+              <a class=" nav-link " aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                  height="20" viewBox="0 0 20 20" fill="none">
+                  <g clip-path="url(#clip0_0_61)">
+                    <path
+                      d="M15.417 15.4165L18.3337 18.3332M17.5003 9.58317C17.5003 5.21092 13.9559 1.6665 9.58366 1.6665C5.2114 1.6665 1.66699 5.21092 1.66699 9.58317C1.66699 13.9554 5.2114 17.4998 9.58366 17.4998C13.9559 17.4998 17.5003 13.9554 17.5003 9.58317Z"
+                      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_61">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg></a>
+            </li>
+
+            <li class="  nav-item">
+              <a class=" nav-link " aria-current="page" href="#">Search</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav align-items-center ms-5 gap-0 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28"
+                  height="28" viewBox="0 0 28 28" fill="none">
+                  <path
+                    d="M5.83398 23.3332V22.1665C5.83398 20.0006 6.6944 17.9233 8.22595 16.3918C9.75749 14.8603 11.8347 13.9998 14.0007 13.9998M14.0007 13.9998C16.1666 13.9998 18.2438 14.8603 19.7754 16.3918C21.3069 17.9233 22.1673 20.0006 22.1673 22.1665V23.3332M14.0007 13.9998C15.2383 13.9998 16.4253 13.5082 17.3005 12.633C18.1757 11.7578 18.6673 10.5708 18.6673 9.33317C18.6673 8.09549 18.1757 6.90851 17.3005 6.03334C16.4253 5.15817 15.2383 4.6665 14.0007 4.6665C12.763 4.6665 11.576 5.15817 10.7008 6.03334C9.82565 6.90851 9.33398 8.09549 9.33398 9.33317C9.33398 10.5708 9.82565 11.7578 10.7008 12.633C11.576 13.5082 12.763 13.9998 14.0007 13.9998Z"
+                    stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="6"
+                  viewBox="0 0 12 6" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0.414376 0.531506C0.673133 0.20806 1.1451 0.155619 1.46855 0.414376L6.00003 4.03956L10.5315 0.414376C10.855 0.155619 11.3269 0.20806 11.5857 0.531506C11.8444 0.854953 11.792 1.32692 11.4685 1.58568L6.46855 5.58568C6.19464 5.80481 5.80542 5.80481 5.53151 5.58568L0.531506 1.58568C0.20806 1.32692 0.155619 0.854953 0.414376 0.531506Z"
+                    fill="white" />
+                </svg></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="./assets/images/bottom_nav_right_img.png" alt=""></a>
+            </li>
+
+
+          </ul>
+
+
+        </div>
+      </div>
+    </nav>
+    <div class="nav_border"></div>
+  </div>
+  <!-- bottom header -->
+
+</header>
